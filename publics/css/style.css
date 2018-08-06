@@ -21,7 +21,7 @@ nav a:hover{
 	width: 70%;
 	/*background: black;*/
 	margin: auto;
-	padding: 150px;
+	padding: 80px;
 }
 .sign-img{
 	width: 100%;
@@ -32,12 +32,12 @@ nav a:hover{
 }
 .dazi{
 	font-size: 36px;
-	padding-top: 50px;
+	padding-top: 30px;
 	color: white;
 }
 .xiaozi{
 	font-size: 24px;
-	padding-top: 50px;
+	padding-top: 30px;
 	color: white;
 }
 
