@@ -4,7 +4,7 @@
 .nav-whole-div{
 	background-image:url(../img/img-1.jpg);
 	width: 100%;
-	height: 580px;
+	height: 500px;
 }
 .container-fluid{
 	width: 70%;
@@ -16,8 +16,8 @@ nav a:hover{
 	background: black;
 }
 .sign{
-	margin-top: 50px;
-	height: 700px;
+	margin-top: 10px;
+	height: 480px;
 	width: 70%;
 	/*background: black;*/
 	margin: auto;
