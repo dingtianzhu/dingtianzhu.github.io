@@ -40,4 +40,11 @@ nav a:hover{
 	padding-top: 20px;
 	color: white;
 }
+.foot_img{
+	height: 50px;
+	text-align:center;
+}
+.foot_img img{
+	height: 50px;
+}
 
