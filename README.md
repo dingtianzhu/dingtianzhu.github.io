@@ -709,7 +709,7 @@ PRQ6YEFwh3jWh-2a2IduBRxpOX3QVXRoCFFAH7XT:kFAFzIAYdKXVPHgIw8P84DOzSFo=:eyJzY29wZS
 }
 ```
 
-## 后台用户订单显示列表
+## 后台多用户订单数显示列表
 * 请求接口`/admin/shopList`
 * 请求方式：默认
 
@@ -737,7 +737,7 @@ PRQ6YEFwh3jWh-2a2IduBRxpOX3QVXRoCFFAH7XT:kFAFzIAYdKXVPHgIw8P84DOzSFo=:eyJzY29wZS
 }
 ```
 
-## 后台用户订单显示列表
+## 后台但用户进入订单显示列表
 * 请求接口`/admin/orderLists`
 * 请求方式：默认
 
@@ -752,16 +752,23 @@ PRQ6YEFwh3jWh-2a2IduBRxpOX3QVXRoCFFAH7XT:kFAFzIAYdKXVPHgIw8P84DOzSFo=:eyJzY29wZS
 ```
 {
 	"0": {
-		"id": 25,
-		"username": "辅导费",
-		"s1": 0,
-		"s2": 0,
-		"s56": 0,
-		"s3": 1,
-		"s7": 1,
-		"s8": 1
+		"id": 85,
+		"consignor_id": 25,
+		"bar_id": "thkjh",
+		"original_image": "[\"https:\\/\\/static.tosneaker.com\\/uploads\\/wash\\/c08dc70e0b3df0f.jpg\",\"https:\\/\\/static.tosneaker.com\\/uploads\\/wash\\/e9450677fa9f29e.jpg\",\"https:\\/\\/static.tosneaker.com\\/uploads\\/wash\\/8a1d7ae19f3ef2d.jpg\",\"https:\\/\\/static.tosneaker.com\\/uploads\\/wash\\/7fc62fb61b4117e.jpg\"]",
+		"end_image": null,
+		"states": 2,
+		"price": "12.00",
+		"tab_ids": ",32,",
+		"scheme": "去胶 ￥12.00*1",
+		"compant": null,
+		"code": null,
+		"created_at": "2019-07-15 17:26:53",
+		"updated_at": "2019-07-15 17:26:53",
+		"deleted_at": null,
+		"wash_id": 0
 	},
-	"count": 2
+	"count": 1
 }
 ```
 
