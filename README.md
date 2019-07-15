@@ -200,6 +200,27 @@ PRQ6YEFwh3jWh-2a2IduBRxpOX3QVXRoCFFAH7XT:kFAFzIAYdKXVPHgIw8P84DOzSFo=:eyJzY29wZS
 }
 ```
 
+## 获取各个状态的数量
+* 请求接口`/auth/getCount`
+* 请求方式：默认
+
+|请求参数|字段类型|是否必填|字段描述|
+|-------|------|-------|-------|
+|consignor_id|int|是|寄售商ID|
+
+返回值
+```
+{
+	"s1": 0,
+	"s2": 7,
+	"s3": 0,
+	"s5": 0,
+	"s6": 0,
+	"s7": 16,
+	"s8": 0
+}
+```
+
 ## 通过快递号获取订单列表
 * 请求接口`/auth/getOrders`
 * 请求方式：默认
