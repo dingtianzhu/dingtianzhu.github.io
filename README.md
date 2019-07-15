@@ -418,6 +418,7 @@ PRQ6YEFwh3jWh-2a2IduBRxpOX3QVXRoCFFAH7XT:kFAFzIAYdKXVPHgIw8P84DOzSFo=:eyJzY29wZS
 |owner_id|int|是|商户ID|
 |page|int|否|页码|
 |pageSize|int|否|页面大小|
+|search|string|否|搜索内容|
 
 返回值
 ```
@@ -813,17 +814,4 @@ PRQ6YEFwh3jWh-2a2IduBRxpOX3QVXRoCFFAH7XT:kFAFzIAYdKXVPHgIw8P84DOzSFo=:eyJzY29wZS
 	"count": 2
 }
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
 
