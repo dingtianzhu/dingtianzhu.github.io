@@ -129,13 +129,14 @@ PRQ6YEFwh3jWh-2a2IduBRxpOX3QVXRoCFFAH7XT:kFAFzIAYdKXVPHgIw8P84DOzSFo=:eyJzY29wZS
 
 # 寄售端接口文档
 
-## 订单添加
+## 获取不同状态的订单接口
 * 请求接口`/auth/orderList`
 * 请求方式：默认
 
 |请求参数|字段类型|是否必填|字段描述|
 |-------|------|-------|-------|
 |states|int|是|订单状态号[1,2,3,5,6,8]|
+|consignor_id|int|是|寄售商ID|
 |page|int|否|页码|
 
 返回值
