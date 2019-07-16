@@ -115,7 +115,7 @@ PRQ6YEFwh3jWh-2a2IduBRxpOX3QVXRoCFFAH7XT:kFAFzIAYdKXVPHgIw8P84DOzSFo=:eyJzY29wZS
 |请求参数|字段类型|是否必填|字段描述|
 |-------|------|-------|-------|
 |consignor_id|int|是|寄售商id|
-|bai_id|string|是|条形码号|
+|bar_id|string|是|条形码号|
 |original_image|array|是|瑕疵图片|
 
 
