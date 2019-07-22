@@ -370,6 +370,7 @@ PRQ6YEFwh3jWh-2a2IduBRxpOX3QVXRoCFFAH7XT:kFAFzIAYdKXVPHgIw8P84DOzSFo=:eyJzY29wZS
 |id|int|是|清洗员ID|
 |page|int|否|页码|
 |pageSize|int|否|页面大小|
+|search|string|否|搜索内容(bar_id)|
 
 返回值
 ```
