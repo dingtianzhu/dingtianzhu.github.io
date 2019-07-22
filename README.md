@@ -117,6 +117,7 @@ PRQ6YEFwh3jWh-2a2IduBRxpOX3QVXRoCFFAH7XT:kFAFzIAYdKXVPHgIw8P84DOzSFo=:eyJzY29wZS
 |consignor_id|int|是|寄售商id|
 |bar_id|string|是|条形码号|
 |original_image|array|是|瑕疵图片|
+|sound|string|是|音频|
 
 
 返回值
