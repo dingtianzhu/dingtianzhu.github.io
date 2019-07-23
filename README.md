@@ -299,6 +299,7 @@ PRQ6YEFwh3jWh-2a2IduBRxpOX3QVXRoCFFAH7XT:kFAFzIAYdKXVPHgIw8P84DOzSFo=:eyJzY29wZS
 |id|int|是|Tab标签ID|
 |page|int|否|页码|
 |pageSize|int|否|页面大小|
+|type|int|否|是否紧急处理：紧急：1非紧急：0|
 
 返回值
 ```
