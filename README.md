@@ -118,7 +118,7 @@ PRQ6YEFwh3jWh-2a2IduBRxpOX3QVXRoCFFAH7XT:kFAFzIAYdKXVPHgIw8P84DOzSFo=:eyJzY29wZS
 |bar_id|string|是|条形码号|
 |original_image|array|是|瑕疵图片|
 |sound|string|是|音频|
-
+|remarks|string|是|备注|
 
 返回值
 ```
