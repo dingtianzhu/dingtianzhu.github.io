@@ -401,7 +401,7 @@ PRQ6YEFwh3jWh-2a2IduBRxpOX3QVXRoCFFAH7XT:kFAFzIAYdKXVPHgIw8P84DOzSFo=:eyJzY29wZS
 
 # 服务端接口文档
 
-## 获取带录入的订单列表
+## 获取全部/待录入的订单列表
 * 请求接口`/auth/orderLists`
 * 请求方式：默认
 
@@ -410,6 +410,7 @@ PRQ6YEFwh3jWh-2a2IduBRxpOX3QVXRoCFFAH7XT:kFAFzIAYdKXVPHgIw8P84DOzSFo=:eyJzY29wZS
 |page|int|否|页码|
 |pageSize|int|否|页面大小|
 |search|string|否|搜索内容|
+|states|int|否|默认为0，全部不传|
 
 返回值
 ```
